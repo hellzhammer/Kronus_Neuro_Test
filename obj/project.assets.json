@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "KRONUSML/1.2.3.2": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/KRONUSML.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KRONUSML.dll": {}
+        }
+      },
+      "KRONUSNEURAL/0.0.4": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "KRONUSML": "1.2.3.2"
+        },
+        "compile": {
+          "bin/placeholder/KRONUSNEURAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KRONUSNEURAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KRONUSML/1.2.3.2": {
+      "type": "project",
+      "path": "../KronusML/KronusML.csproj",
+      "msbuildProject": "../KronusML/KronusML.csproj"
+    },
+    "KRONUSNEURAL/0.0.4": {
+      "type": "project",
+      "path": "../Kronus_Neural/Kronus_Neural.csproj",
+      "msbuildProject": "../Kronus_Neural/Kronus_Neural.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "KRONUSML >= 1.2.3.2",
+      "KRONUSNEURAL >= 0.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mattp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\Kronus_Console.csproj",
+      "projectName": "Kronus_Console",
+      "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\Kronus_Console.csproj",
+      "packagesPath": "C:\\Users\\mattp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mattp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj": {
+              "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj"
+            },
+            "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\Kronus_Neural.csproj": {
+              "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\Kronus_Neural.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

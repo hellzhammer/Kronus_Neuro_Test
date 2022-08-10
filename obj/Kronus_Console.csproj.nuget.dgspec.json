@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\Kronus_Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj": {
+      "version": "1.2.3.2",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj",
+        "projectName": "KRONUSML",
+        "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj",
+        "packagesPath": "C:\\Users\\mattp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mattp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\Kronus_Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\Kronus_Console.csproj",
+        "projectName": "Kronus_Console",
+        "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\Kronus_Console.csproj",
+        "packagesPath": "C:\\Users\\mattp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mattp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj": {
+                "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj"
+              },
+              "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\Kronus_Neural.csproj": {
+                "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\Kronus_Neural.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\Kronus_Neural.csproj": {
+      "version": "0.0.4",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\Kronus_Neural.csproj",
+        "projectName": "KRONUSNEURAL",
+        "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\Kronus_Neural.csproj",
+        "packagesPath": "C:\\Users\\mattp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Neural\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mattp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj": {
+                "projectPath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\KronusML\\KronusML.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

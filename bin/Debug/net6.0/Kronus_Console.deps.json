@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Kronus_Console/1.0.0": {
+        "dependencies": {
+          "KRONUSML": "1.2.3.2",
+          "KRONUSNEURAL": "0.0.4"
+        },
+        "runtime": {
+          "Kronus_Console.dll": {}
+        }
+      },
+      "KRONUSML/1.2.3.2": {
+        "runtime": {
+          "KronusML.dll": {}
+        }
+      },
+      "KRONUSNEURAL/0.0.4": {
+        "dependencies": {
+          "KRONUSML": "1.2.3.2"
+        },
+        "runtime": {
+          "Kronus_Neural.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kronus_Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KRONUSML/1.2.3.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KRONUSNEURAL/0.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
