@@ -58,7 +58,7 @@ public class Program
         BOW bow = new BOW(training_data.ToArray(), ' ');
         bow.initBow(new string[] { " " });
 
-        MLP mlp = new MLP(bow.BowMatrix[0].Length, 3, Initializer.xavier, new IActivation<double>[] { new Swish() }, new Sigmoid());
+        MLP mlp = new MLP(bow.BowMatrix[0].Length, 3, new int[] { 1 }, new IActivation<double>[] { new Swish() }, new Sigmoid());
         mlp.Learn(0.001, 25000, bow.BowMatrix, expected_outputs.ToArray());
 
         mlp.FeedForward(bow.NewSample("go over there please")); // command
@@ -79,7 +79,7 @@ public class Program
         double[,] double_trainingOutputs = new double[,] { { 1, 0 }, { 0, 1 }, { 0, 1 }, { 1, 0 } };
 
         // test new construcable neural network
-        MLP2 mlp2 = new MLP2(2, 1, new int[] { 2 }, new IActivation<double>[] { new LeakyReLU() }, new Sigmoid());
+        MLP mlp2 = new MLP(2, 1, new int[] { 2 }, new IActivation<double>[] { new LeakyReLU() }, new Sigmoid());
         mlp2.Learn(0.001, 25000, KronusML.Numerics.Math.ToJagged(trainingInputs_nobias), KronusML.Numerics.Math.ToJagged(trainingOutputs));
 
 
@@ -151,7 +151,7 @@ public class Program
         }
 
         // prepare neural network for testing
-        MLP2 mlp1 = new MLP2(4 /* if adding bias == 5*/, 3, new int[] {  }, new IActivation<double>[] { }, new Sigmoid(), Initializer.zeros);
+        MLP mlp1 = new MLP(4 /* if adding bias == 5*/, 3, new int[] {  }, new IActivation<double>[] { }, new Sigmoid(), Initializer.zeros);
         mlp1.Learn(0.01, 8000, iris_training_inputs, expected_labels);
 
         // test the actual outputs.....                         1.0 == extra bias
