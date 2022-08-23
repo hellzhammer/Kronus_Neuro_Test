@@ -10,6 +10,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        
         /*
         
         various network tests to ensure that neural net can find the best solution for varying problems. 
@@ -18,9 +19,11 @@ public class Program
 
         //Run_XOR_Test();
 
-        //Run_IRIS_Test();
+        Run_IRIS_Test();
 
-        Run_TEXT_Test();
+        //Run_TEXT_Test();
+
+        
     }
 
     public static void Run_TEXT_Test()
@@ -75,25 +78,23 @@ public class Program
         double[,] trainingOutputs = new double[,] { { 0 }, { 1 }, { 1 }, { 0 } };
         double[,] double_trainingOutputs = new double[,] { { 1, 0 }, { 0, 1 }, { 0, 1 }, { 1, 0 } };
 
-        Console.WriteLine("Running Neural Networks");
-        Console.WriteLine("Running XOR Network Test");
-        Console.WriteLine("\n");
+        // test new construcable neural network
+        MLP2 mlp2 = new MLP2(2, 1, new int[] { 2 }, new IActivation<double>[] { new LeakyReLU() }, new Sigmoid());
+        mlp2.Learn(0.001, 25000, KronusML.Numerics.Math.ToJagged(trainingInputs_nobias), KronusML.Numerics.Math.ToJagged(trainingOutputs));
 
-        // Enter neural network
-        MLP mlp = new MLP(2, 1, Initializer.xavier, new IActivation<double>[] { new Swish() }, new Sigmoid());
-        mlp.Learn(0.001, 25000, KronusML.Numerics.Math.ToJagged(trainingInputs_nobias), KronusML.Numerics.Math.ToJagged(trainingOutputs));
 
-        mlp.FeedForward(new double[] { 0, 0 });
-        var out1 = mlp.GetNetworkOutputs();
 
-        mlp.FeedForward(new double[] { 1, 1 });
-        var out2 = mlp.GetNetworkOutputs();
+        mlp2.FeedForward(new double[] { 0, 0 });
+        var out1 = mlp2.GetNetworkOutputs();
 
-        mlp.FeedForward(new double[] { 1, 0 });
-        var out3 = mlp.GetNetworkOutputs();
+        mlp2.FeedForward(new double[] { 1, 1 });
+        var out2 = mlp2.GetNetworkOutputs();
 
-        mlp.FeedForward(new double[] { 0, 1 });
-        var out4 = mlp.GetNetworkOutputs();
+        mlp2.FeedForward(new double[] { 1, 0 });
+        var out3 = mlp2.GetNetworkOutputs();
+
+        mlp2.FeedForward(new double[] { 0, 1 });
+        var out4 = mlp2.GetNetworkOutputs();
     }
 
     public static void Run_IRIS_Test()
@@ -150,8 +151,8 @@ public class Program
         }
 
         // prepare neural network for testing
-        MLP mlp1 = new MLP(4 /* if adding bias == 5*/, 3, Initializer.zeros, new IActivation<double>[] { new Sigmoid() }, new Sigmoid());
-        mlp1.Learn(0.001, 150000, iris_training_inputs, expected_labels);
+        MLP2 mlp1 = new MLP2(4 /* if adding bias == 5*/, 3, new int[] {  }, new IActivation<double>[] { }, new Sigmoid(), Initializer.zeros);
+        mlp1.Learn(0.01, 8000, iris_training_inputs, expected_labels);
 
         // test the actual outputs.....                         1.0 == extra bias
         mlp1.FeedForward(new double[] { 7.6, 3.0, 6.6, 2.1 }); //, 1.0 }); // virginica = 001
@@ -162,5 +163,8 @@ public class Program
 
         mlp1.FeedForward(new double[] { 4.8, 3.4, 1.9, 0.2 }); //, 1.0 }); // setosa = 100
         var out41 = mlp1.GetNetworkOutputs();
+
+        mlp1.FeedForward(new double[] { 5.0, 3.5, 2.1, 0.4 }); //, 1.0 }); // setosa = 100
+        var out411 = mlp1.GetNetworkOutputs();
     }
 }
