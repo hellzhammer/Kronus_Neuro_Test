@@ -19,9 +19,9 @@ public class Program
 
         //Run_XOR_Test();
 
-        Run_IRIS_Test();
+        //Run_IRIS_Test();
 
-        //Run_TEXT_Test();
+        Run_TEXT_Test();
 
         
     }
@@ -58,16 +58,16 @@ public class Program
         BOW bow = new BOW(training_data.ToArray(), ' ');
         bow.initBow(new string[] { " " });
 
-        MLP mlp = new MLP(bow.BowMatrix[0].Length, 3, new int[] { 1 }, new IActivation<double>[] { new Swish() }, new Sigmoid());
-        mlp.Learn(0.001, 25000, bow.BowMatrix, expected_outputs.ToArray());
+        MLP mlp = new MLP(bow.BowMatrix[0].Length, 3, new int[] { 2 }, new IActivation<double>[] { new Sigmoid() }, new Sigmoid(), Initializer.zeros);
+        mlp.Learn(0.01, 15000, bow.BowMatrix, expected_outputs.ToArray());
 
         mlp.FeedForward(bow.NewSample("go over there please")); // command
         var out1 = mlp.GetNetworkOutputs();
 
-        mlp.FeedForward(bow.NewSample("this is really cool")); // exclamation
+        mlp.FeedForward(bow.NewSample("i want to go shopping")); // exclamation
         var out2 = mlp.GetNetworkOutputs();
 
-        mlp.FeedForward(bow.NewSample("that is a cat")); //statement
+        mlp.FeedForward(bow.NewSample("he did this last night")); //statement
         var out3 = mlp.GetNetworkOutputs();
     }
 

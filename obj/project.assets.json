@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "KRONUSML/1.3.0": {
+      "KRONUSML/1.3.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "compile": {
@@ -12,11 +12,11 @@
           "bin/placeholder/KRONUSML.dll": {}
         }
       },
-      "KRONUSNEURAL/0.1.0": {
+      "KRONUSNEURAL/0.2.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "KRONUSML": "1.3.0"
+          "KRONUSML": "1.3.2"
         },
         "compile": {
           "bin/placeholder/KRONUSNEURAL.dll": {}
@@ -28,12 +28,12 @@
     }
   },
   "libraries": {
-    "KRONUSML/1.3.0": {
+    "KRONUSML/1.3.2": {
       "type": "project",
       "path": "../KronusML/KronusML.csproj",
       "msbuildProject": "../KronusML/KronusML.csproj"
     },
-    "KRONUSNEURAL/0.1.0": {
+    "KRONUSNEURAL/0.2.0": {
       "type": "project",
       "path": "../Kronus_Neural/Kronus_Neural.csproj",
       "msbuildProject": "../Kronus_Neural/Kronus_Neural.csproj"
@@ -41,8 +41,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "KRONUSML >= 1.3.0",
-      "KRONUSNEURAL >= 0.1.0"
+      "KRONUSML >= 1.3.2",
+      "KRONUSNEURAL >= 0.2.0"
     ]
   },
   "packageFolders": {
