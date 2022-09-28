@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SdkZcCvWP/2/i+rQQ5Igj7cU7Rhj/BQGTZ3JIbanUiAeXrMSJ2s7XdKoO4wNbSmOR5NQ46wRlShb9GMkwGHiUg==",
+  "dgSpecHash": "xlffNa9S7TMFefN8k7YkmpAdU+QjDaksEqflrr6RyjJzKVnsFwIy8EiWRWLMSUW9YVroMW3+JVb6fX0Jx7v8Ug==",
   "success": true,
   "projectFilePath": "C:\\Users\\mattp\\Desktop\\Kronus_Libs\\Kronus_Console\\Kronus_Console.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mattp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

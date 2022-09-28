@@ -3,6 +3,7 @@ C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\Kronus_Consol
 C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\Kronus_Console.runtimeconfig.json
 C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\Kronus_Console.dll
 C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\Kronus_Console.pdb
+C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\KronusML.dll
 C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\Kronus_Neural.dll
 C:\Users\mattp\Desktop\Kronus_Libs\Kronus_Console\bin\Debug\net6.0\KronusML.pdb

@@ -1,0 +1,412 @@
+ID	Statement	QuestionType
+960510785	would you like to get food?	choice
+78041464	would you like to come over?	choice
+33438635	do you want to do that?	choice
+1322608442	want to come get me?	choice
+167891060	want to get that?	choice
+42137903	want to go there?	choice
+2050508147	want to come here?	choice
+543989338	want me to come there?	choice
+1480146977	want to go over there?	choice
+546624573	want to see that?	choice
+1029489714	do you want to see that?	choice
+2128733940	want to get something to eat?	choice
+633093107	want to see a movie?	choice
+703168257	want to go to the movies?	choice
+1621097605	want to go to the mall?	choice
+213145658	want to go to the city?	choice
+1977147904	want to go for a driver?	choice
+226129979	want to fix that for me?	choice
+1927890693	could you do me a favour?	choice
+834589317	could you stop bye?	choice
+1299665723	could you stop that?	choice
+15009849	couldnt we try going there?	choice
+909020141	could we try that?	choice
+845176458	should we leave?	choice
+482383368	are you staying or are you going?	choice
+1880275102	are here for the night?	choice
+1070126101	are you just here forever?	choice
+454450323	what are you naming her?	choice
+980357771	whats your choice?	choice
+35529037	whats your answer?	choice
+1985716513	what is he going to do?	choice
+502164705	what are you going to do?	choice
+1389401985	what can i do?	choice
+1610215500	what did you want?	choice
+1083240921	what do you want?	choice
+2038627643	can i get that?	choice
+1450708695	do you like me?	choice
+280106727	do you like her?	choice
+229947652	do you like him?	choice
+289446071	can i see you again?	choice
+1505579408	would you see me again?	choice
+1114715043	would you like to see that?	choice
+1216129723	that was fun, wasnt it?	disjunctive
+67183909	id like that, wouldnt you?	disjunctive
+1097452548	i want that, dont you?	disjunctive
+1805784158	id live there, would you?	disjunctive
+906965201	i cant live without you, can you live without me?	disjunctive
+214839983	i cant say no to you, or can i?	disjunctive
+1244471021	you can come over, or can you?	disjunctive
+973574100	i was talking, were you listening?	disjunctive
+1518680398	i hate it when you do that, can you stop?	disjunctive
+1048909940	i like it when you do that, can you do it again?	disjunctive
+895874112	i hate him, how about you?	disjunctive
+274250351	i didnt like that movie, did you?	disjunctive
+425396616	i dont like that book, do you?	disjunctive
+456195281	i like this, do you?	disjunctive
+35492527	i can do this, can you?	disjunctive
+32294380	i hate doing this, can someone else please?	disjunctive
+809597637	i want to go home, how about you?	disjunctive
+1143165583	i could not care less, did you know that?	disjunctive
+1468485130	i like metal, how about you?	disjunctive
+179646508	i did this, did you?	disjunctive
+1593400710	i went here, can you leave the country?	disjunctive
+1614868151	i keep writing stuff to fill in space in the brain, is it worth it though?	disjunctive
+1836270818	this should be enough, or is it?	disjunctive
+570104785	that was good enough, or was it?	disjunctive
+1047255137	that could have gone better, or could it?	disjunctive
+58862	fuck it im going to just run it and see what happens, but should i?	disjunctive
+436797528	would you like to go get food?	general
+1538248547	would you like to come over?	general
+876620526	can i come over?	general
+1529815311	can i go out?	general
+1470460959	can we go to the park?	general
+671554481	can i go to the park?	general
+1053080966	are you ok?	general
+378750646	can we be friends?	general
+1262458695	can we get food sometime?	general
+1107678460	would you like to get dinner sometime?	general
+824839858	would you like to get dinner?	general
+1969507035	would you like to go out?	general
+1634077595	would you like to go to a restaurant?	general
+161645653	do you like italian?	general
+38575001	do you like wine?	general
+1240925922	do you like beer?	general
+553547651	do you like mcdonalds?	general
+1136831471	do you like cookies?	general
+1949621996	do you like videos?	general
+1689083593	do you like movies?	general
+1263256118	do you like that?	general
+1417497114	do you like this?	general
+971690214	was that cool or what?	general
+482508872	wasnt that cool?	general
+2046809391	wasnt that interesting?	general
+427945918	want to come back?	general
+1368358941	can you come back?	general
+1772697756	can you come over?	general
+1510909501	can you come home?	general
+1458260611	can you see me?	general
+1330268105	can you do the laundry?	general
+1337026911	can you do the dishes?	general
+871578262	can you clean up?	general
+856692669	can you take out the garbage?	general
+2144484972	would you mind taking that out?	general
+514786280	would you mind going out?	general
+1874311590	would you mind driving?	general
+1432793427	would you mind coming over?	general
+389226691	would you mind if i came over?	general
+860719995	would you mind if i got chicken?	general
+778590140	would you mind if i got other food?	general
+1994966462	wouldnt you like to go there?	general
+376463015	wouldnt you like to get that?	general
+463386027	wouldnt you like to see that?	general
+343427651	wouldnt you like to just get away?	general
+1158368215	wouldnt you like to go on vacation?	general
+37912949	wouldnt you like to get out there?	general
+422919054	wouldnt you like to get out there again?	general
+303385703	would you not feel better going out?	general
+246342198	would you not feel better going out with your friends?	general
+1235441376	would you mind if i went out?	general
+44160015	would you like to come out with me?	general
+255103416	should i be worried?	general
+117148882	should i get anything else?	general
+24443682	should i grab more?	general
+578895960	should i get more?	general
+2126153879	should i get another?	general
+1953707200	should i go back and exchange that for you?	general
+1042601466	should i get another one somewhere else?	general
+454626940	should i stop bye?	general
+862791086	should i see that?	general
+839978756	should you be sending me that?	general
+427436691	should you be over there right now?	general
+1363793630	should you really be saying that at the moment?	general
+1337005901	shouldnt you be at home?	general
+1047408493	shouldnt you clean this up?	general
+510040672	shouldnt you shut up?	general
+189496825	shouldnt you go fuck yourself?	general
+1724239874	shouldnt you get the fuck out?	general
+1083384267	can you get the fuck out?	general
+926209878	can you fucking leave?	general
+680349770	can you fucking get the fuck out of here?	general
+159716679	shouldnt you be nicer?	general
+501013900	shouldnt you treat her better?	general
+322605352	shouldnt you treat them better?	general
+827885202	shouldnt you treat him better?	general
+453145998	should you not be at work?	general
+2067899733	do you have a job?	general
+1698676767	are you old enough?	general
+300553075	are you over there?	general
+1949628515	are you under there?	general
+357551786	are you upside down?	general
+881423952	arnt you inside?	general
+676679202	are you not inside?	general
+1782414781	are you not at the store?	general
+698219989	are you here?	general
+494035394	are you at the movies?	general
+166541279	are you at the store?	general
+244360886	are you done yet?	general
+977700911	are you coming home yet?	general
+2095711594	are you getting food?	general
+1785167086	where are you?	special
+1105521152	wheres mine?	special
+920744000	where did you go?	special
+399183659	where did i go?	special
+1673817346	where did i put that?	special
+513728741	where are my keys?	special
+1207157237	where is my wallet?	special
+1887196824	where could i have put that?	special
+105628756	where the fuck it is?	special
+1095490463	where did i even go last night?	special
+204480582	where did you go yesterday?	special
+531402362	where is my money?	special
+282868055	where is the shit?	special
+1503954024	where is my amazon order?	special
+738841319	where did you get those?	special
+150890398	where did you get that?	special
+1393647353	where is that?	special
+1063218	where is china?	special
+1158310580	where is the usa?	special
+569431420	where is canada?	special
+1638251662	where is britain?	special
+459016315	where is this?	special
+505887403	where was that?	special
+1152355708	where are those mother fuckers?	special
+1924061682	where am i going?	special
+1669344870	where are we going?	special
+1188105671	where did they put them?	special
+633452547	where did you go with them?	special
+118469493	where did you all go?	special
+1539544667	where were they?	special
+269386996	where did they play?	special
+396478185	where was that again?	special
+1232342478	where is my brain today?	special
+466005629	where is your shirt?	special
+623527032	where are your pants?	special
+166515990	where is your dick?	special
+120708749	where are your tits?	special
+916118768	why did you say that?	special
+1838909046	why cant i go in?	special
+77014844	why are you there?	special
+1947795151	why cant i talk to you?	special
+464466461	why cant we talk?	special
+179606783	why cant you shut up?	special
+212186173	why cant you go away?	special
+1351345885	why did you come over?	special
+1417498948	why cant you leave?	special
+987440276	why did he say that?	special
+1470849802	why did you leave?	special
+1145427642	why did you go to that place?	special
+712050654	why go there?	special
+895826623	why get out now?	special
+1781455258	why stop now?	special
+1653865830	why stop at all?	special
+1068861265	why stop there?	special
+1504827054	why dont we try again?	special
+738262670	why dont we test it now?	special
+11745648	why dont we ask them about it?	special
+1327983838	why dont we get food instead?	special
+34717523	why dont we try dating?	special
+1564068022	why dont you go the fuck away?	special
+885218616	why dont you move on?	special
+2133300236	why not block me?	special
+1180839230	why not kill yourself?	special
+125679635	why not just die instead?	special
+238215366	why not go out?	special
+1367597943	why did i do that?	special
+858655430	why did you do that?	special
+1376457972	why am i going this way?	special
+292538891	why am i lost?	special
+2131920875	why is this documentation so old?	special
+1589777195	why is this so bad?	special
+2037124131	why cant i figure this out?	special
+1869233365	why cant i get in there?	special
+493407635	why is that banned?	special
+181231815	why is that legal?	special
+585897100	why cant this country be better?	special
+1839005078	why is our leader a clown?	special
+1853296776	why is trudeau such a dipshit?	special
+1360605369	why are you so retarded?	special
+2066158280	why are you even here?	special
+94016493	why were you born?	special
+1276851415	why did you message me?	special
+1047620451	why bother?	special
+966014385	why stop there?	special
+55829943	why not go once or twice more?	special
+47527284	whos there?	special
+302207901	whos that?	special
+1723076759	whos listening?	special
+520774121	who is there?	special
+1444859908	who can hear this?	special
+1714365888	woh is watching me?	special
+352320457	who can see this?	special
+293513144	who put that there?	special
+1834436570	who is going to die first?	special
+751391774	who wants to get loaded?	special
+1374090461	who wants to get shitfaced?	special
+843222777	who wants to get wrecked?	special
+1613522694	who wants to go to the park?	special
+1533566353	who wants to get food?	special
+1543343488	who said that?	special
+2118439064	who said youre going to die?	special
+1170577850	who said im retarded?	special
+590422810	who said i did it?	special
+573102313	who said that to them?	special
+681869005	who said that to you?	special
+418298038	who wants to party?	special
+1471817439	who wants some iced cream?	special
+572570094	who wants cake?	special
+299741349	who hates christmas?	special
+331041853	who hates jews?	special
+458853138	who hates everyone like i do?	special
+1865528065	who wants millions of dollars?	special
+1526974015	who wants to be a millionaire?	special
+1675638436	who came over?	special
+882163428	who was that again?	special
+1167962747	who did they hit?	special
+497791684	who hit them?	special
+1774420391	who hit my car?	special
+1629445238	who bought them?	special
+1750283628	who is that over there?	special
+477501941	who is touching me right now?	special
+695174217	who cant stop yelling because theyre fucking wasted right now?	special
+267795750	who cant even be bothered?	special
+407274529	who cares?	special
+1977150533	what was that?	special
+649568637	what came first?	special
+1155722886	what was in there?	special
+1594392341	whats in your mouths?	special
+1301611407	what is in your mouth?	special
+366736900	what the fuck?	special
+1302269869	wtf?	special
+1785077930	what the hell?	special
+1879325969	wth?	special
+1376857427	what on earth?	special
+1507314762	what is that place called again?	special
+483034189	what was that called again?	special
+98540504	what was that generic item over there?	special
+2034113684	what is in your purse today?	special
+1843740926	what is in the store today?	special
+1197127451	what does the internet have for me to read today?	special
+135305391	what will i do today?	special
+1289233353	what did he say?	special
+835447309	what did she say?	special
+1749327814	what was that chicks name?	special
+398118669	what was that dudes name?	special
+1408433369	what on the fucking earth was that?	special
+384941988	what were you thinking?	special
+177470254	what did you say to them?	special
+364385041	what did you say to him?	special
+1143024573	what did you say to me?	special
+288410676	what did you just do?	special
+628397932	what did you do?	special
+1543673002	what now?	special
+1342878271	what in the fuck are you doing there?	special
+477953446	what the hell did you buy that for?	special
+835376746	what did you get that for?	special
+314893999	what use is that?	special
+1742743827	whats the use?	special
+155547326	whats going wrong with me?	special
+1591895914	whats wrong with them?	special
+822170698	whats wrong with him?	special
+1437020644	whats wrong with her?	special
+830554233	what is she crying about now?	special
+1492599995	when did you stop by?	special
+588367530	when did you buy that?	special
+233370754	when did you do that?	special
+1545797642	when did we talk last?	special
+1709712134	when are we going out?	special
+1727919220	when did i say we should go again?	special
+1958724785	when are you going to make up your mind?	special
+481534142	when are you going to get married?	special
+23273546	when are you coming over?	special
+1490275011	when did you get that dude?	special
+1991913333	when did you get tattoos?	special
+1027090136	when did you get that?	special
+747864134	when did you say that?	special
+1419322454	when did i say that?	special
+78063482	when did she say that?	special
+1568751406	when the hell was that?	special
+2128312710	when the fuck was that?	special
+1824222195	when did i do this?	special
+390364531	when did i do that?	special
+642119199	when are you going to get food?	special
+1718182380	when are you going to the store?	special
+1637921770	when were you born?	special
+85983836	when were you produced?	special
+1801000474	when were you made?	special
+2096043244	when was that made?	special
+311015880	when was that produced?	special
+84049915	when did you have her?	special
+1727735736	when was she born?	special
+2062875870	when was he born?	special
+1290678257	when did they give birth?	special
+1811440558	when did she miscarry?	special
+1934552299	when did the music stop?	special
+257880293	when are we going back?	special
+2018274666	when did you say i can come back?	special
+902442860	when is my time up?	special
+573072183	when do i have to be there?	special
+1724343461	when do i have to go?	special
+1422231273	when do you want me there?	special
+234825400	when should i drop by?	special
+9146580	when did i say come over?	special
+2112739449	when are you going to leave me alone?	special
+73602330	when are you going to understand?	special
+1824732676	when are you going to implement this?	special
+697718467	when did you start doing that again?	special
+1111355215	when did you start that?	special
+1875383681	when is the next time?	special
+1289684858	when are we going to the gym?	special
+975649838	when did you want to go?	special
+1796426063	when did you say you could come over again?	special
+1733587967	when the fuck did you do that?	special
+1734313809	when did this file get so big?	special
+1327269265	when did coding get so cool?	special
+1991401713	when did china blow up?	special
+207013344	when did that happen?	special
+671967399	when can i sign up?	special
+1414273771	when is the store open?	special
+2061979240	when can i get tacos?	special
+2139449473	how did that happen?	special
+1009349944	how was that?	special
+810808153	how did you get there?	special
+1055981204	how did i get in here?	special
+1790584595	how on earth?	special
+2125737465	how the hell?	special
+292190835	how the fuck?	special
+1238429999	how in the fucking hell?	special
+1616956580	how did we do that last time?	special
+181321742	how can i tell if its not good?	special
+289185014	how can i tell?	special
+2076475140	how did she do thathow did he get in shit?	special
+1064586845	how did they get caught?	special
+1404003491	how did they hear about us?	special
+118193336	how did you hear about us?	special
+1001508694	how on earth can we get there?	special
+1940813497	how did you get there?	special
+88975296	how did you afford that?	special
+1056691949	how can we even afford that?	special
+1372784640	how did you do that?	special
+947860915	how?	special
+101757158	how do i?	special
+1780255109	how do you?	special
+580926568	how do they?	special
+667995623	how are they?	special
+1490905219	how are you?	special
+1888883449	how can you?	special
+1115959994	how can i?	special
+2043766839	how can?	special
+1502746132	how to?	special
+1610462495	how to do?	special
+758419166	how am?	special
